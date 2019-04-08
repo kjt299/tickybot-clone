@@ -1,0 +1,238 @@
+/* Global CSS reset rule to remove all default margin and padding values*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+
+body{
+font-family: Signika,BlinkMacSystemFont,Segoe       UI,Roboto,Helvetica,Arial,sans-serif;
+color: rgba(0,0,0,.65);
+}
+
+/*navigation bar start*/
+nav {
+background-color: #40596b;
+padding:1em 0;
+text-align:center;
+}
+
+ul{
+list-style-type: none;
+margin:0;
+position:relative;
+text-align:center;
+}
+
+li {
+display:inline;
+margin:0 0.1em;
+font-size: 1.25em;
+}
+
+.link{
+color:#ffd05a;
+}
+
+.link:hover{
+color:white;
+}
+
+.link:link {
+text-decoration: none;
+}
+/*navigation bar end*/
+
+/*header start*/
+header{
+background-color: #55c0ec;
+text-align: center;
+padding: 1em 0;
+}
+
+header h3{
+  color:white;
+}
+
+h1{
+font-size: 5em;
+}
+
+#ticky
+{
+margin: 1.5em 3em;
+}
+
+#header-title{
+margin: 2.5em 3em;
+}
+
+#slack{
+width: 35px;
+height:auto;
+}
+
+.btn{
+color:rgba(0,0,0,.65);
+font-size: 1.75em;
+margin:1em auto;
+padding:0.5em;
+text-align:center;
+width: 10em;
+}
+/*header end*/
+
+/*"What Is TickyBot" section start*/
+#summary{
+background-color:#fafafa;
+padding:1em 0;
+padding-bottom:3em;
+text-align:center;
+}
+
+h2{
+color: rgba(0,0,0,.75);
+font-size: 2.5em;
+text-align:center;
+padding-top:1em;
+}
+
+.line{ 
+border-bottom: 4px solid #55c0ec;
+margin:0 auto;
+width: 10em;  
+}
+
+strong {
+  font-weight: 600;
+}
+
+p{
+color: rgba(0,0,0,.75);
+font-size: 1.25em;
+margin:2em;
+margin-bottom:0;
+text-align:left;
+}
+/*"What Is TickyBot" section end*/
+
+/*"How It Works" section start*/
+#how-it-works{
+background-color: #90ddaa;
+padding-bottom:2em;
+}
+
+.d-flex{
+font-size: 1.25em;
+margin:0 auto;
+text-align:center;
+width:100%;
+}
+
+.icons{
+background-color:#40596b;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+margin:2em;
+text-align:center;
+width:12em;
+}
+
+.pics{
+margin:1.5em 0;
+height:auto;
+width:8.5em;
+}
+
+.description{
+background-color:white;
+margin:0;
+padding:1em;
+text-align:center;
+width:auto;
+}
+
+code{
+background-color:#e2e2e2;
+}
+/*"How It Works" section end*/
+
+/*"Start Using TickyBot Today" section start*/
+
+.ending{
+margin: 1em 20%;
+text-align:center;
+}
+
+.btn-dark{
+color:white;
+background-color:#40596b;
+border:none;
+}
+
+#btn-div{
+text-align:center;
+margin: 2em auto;
+}
+
+/*"Start Using TickyBot Today" section end*/
+
+/*footer start*/
+footer{
+padding-top:2em;
+}
+
+footer p{
+background-color: #40596b;
+color:white;
+font-size: 0.8em;
+margin:0 auto;
+text-align:center;
+}
+
+footer p a {
+color:white;
+text-decoration: underline;
+}
+/*footer ends*/
+
+#top-btn{
+background-color: #ffd05a;
+border: none;
+border-radius: 10px;
+bottom: 1.5em;
+display: none; 
+font-size: 1em;
+outline: none; 
+padding: 1em;
+position: fixed; 
+right: 1.5em;
+width: 60px;
+z-index: 99;   
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 400px) {
+#ticky{
+  width:230px;
+ }
+ h1{
+font-size: 4em;
+ }
+}
+
+@media only screen and (max-width: 600px) {
+#ticky{
+  width:270px;
+}
+}
+
+@media only screen and (min-width: 900px) {
+.icons{
+  width:15em;
+}
+.description{
+  height:8.5em;
+}
+}
