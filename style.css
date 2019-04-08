@@ -60,11 +60,11 @@ font-size: 5em;
 
 #ticky
 {
-margin: 1.5em 3em;
+margin: 1.5em auto;
 }
 
 #header-title{
-margin: 2.5em 3em;
+margin: 2.5em auto;
 }
 
 #slack{
